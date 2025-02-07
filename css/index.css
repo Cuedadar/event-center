@@ -21,27 +21,43 @@ h1 {
 
 h2 {
     color: #F6CB0C;
-    font-size: 2vw;
+    font-size: 2em;
     font-family: century-gothic, sans-serif;
     background-color: black;
     margin: 0;
     padding: 1em;
+    text-align: center;
 }
 
 #mission-div {
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0, 0.75);
     background-image: url(../images/ushers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     display: flex;
+    flex-direction: column;
 }
 
-h3 {
+div h3 {
     color: #F6CB0C;
-    font-size: 2vw;
+    font-size: 2em;
     font-family: century-gothic, sans-serif;
-    margin: 0;
+    /* margin: 0; */
     padding: 1em;
     text-align: center;
+    display: flex;
+    flex: 2;
+}
+
+div p {
+    color: #F6CB0C;
+    font-size: 1em;
+    font-family: century-gothic, sans-serif;
+    /* margin: 0; */
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex: 2;
+    padding: 15%;
 }
