@@ -34,8 +34,12 @@ h2 {
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
+    background-position: center;
     display: flex;
     flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 #mission-div {
@@ -48,7 +52,7 @@ h2 {
 
 div h3 {
     color: #F6CB0C;
-    font-size: 2em;
+    font-size: 3em;
     font-family: century-gothic, sans-serif;
     /* margin: 0; */
     padding: 1em;
@@ -59,12 +63,12 @@ div h3 {
 
 div p {
     color: #F6CB0C;
-    font-size: 1em;
+    font-size: 1.4em;
     font-family: century-gothic, sans-serif;
-    /* margin: 0; */
-    padding: 1em;
     text-align: center;
     display: flex;
     flex: 2;
-    padding: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
 }
