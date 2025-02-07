@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    padding: 15px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+nav ul li a {
+    color: #F6CB0C;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-family: century-gothic, sans-serif;
+}
+
+nav ul li.selected {
+    font-weight: bold;
+}
+
+nav ul li.unselected {
+    font-weight: lighter;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+/* Hamburger menu icon */
+.menu-icon {
+    display: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Hide the checkbox input */
+#menu-toggle {
+    display: none;
+}
+
+/* 796 ensures contact us doesn't wrap */
+/* Standard is 768px */
+@media screen and (max-width: 796px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #333;
+    }
+
+    /* Display the hamburger icon */
+    .menu-icon {
+        display: flex;
+    }
+
+    /* When the checkbox is checked, show the menu */
+    #menu-toggle:checked + label + ul {
+        display: flex;
+    }
+}

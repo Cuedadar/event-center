@@ -1,0 +1,47 @@
+@import url(navbar.css);
+
+#hero-div {
+    background-color: rgb(0, 0, 0, 0.6);
+    background-image: url(../images/the-orpheum-theater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+h1 {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 8vw;
+    color: #F6CB0C;
+    width: 50%;
+    font-family: century-gothic, sans-serif;
+    text-shadow: 5px 5px black;
+}
+
+h2 {
+    color: #F6CB0C;
+    font-size: 2vw;
+    font-family: century-gothic, sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 1em;
+}
+
+#mission-div {
+    background-color: rgb(0, 0, 0, 0.6);
+    background-image: url(../images/ushers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+}
+
+h3 {
+    color: #F6CB0C;
+    font-size: 2vw;
+    font-family: century-gothic, sans-serif;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}

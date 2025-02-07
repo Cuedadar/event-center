@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <!-- Future Possible Improvements: -->
+        <!-- 1. Animation open, menu presents/slides downward -->
+        <!-- 2. Improve reusability of nav bar. JS could include it if a navbar.html file existed I could put in every file -->
+        <nav>
+            <a href="#"><img src="images/orpheum-logo.png" alt="The Orpheum Theatre Group logo"></a>
+            <!-- Checkbox trick for hamburger menu -->
+            <!-- Checkbox for the menu toggle -->
+            <input type="checkbox" id="menu-toggle">
+            <!-- Label for the checkbox, this will be the hamburger icon -->
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul>
+                <li class="selected"><a href="#">Home</a></li>
+                <li class="unselected"><a href="#">Events</a></li>
+                <li class="unselected"><a href="#">Menu</a></li>
+                <li class="unselected"><a href="#">Location</a></li>
+                <li class="unselected"><a href="#">Contact Us</a></li>
+            </ul>
+            
+        </nav>
+    </header>
+    <!-- TODO: Remark with semantic HTML5. Review section/content/article/main etc... -->
+    <div id="hero-div">
+        <h1>Creating Memories, Inspiring Communities</h1>
+    </div>
+    <h2>About Us</h2>
+    <div id="mission-div">
+        <h3>Our Mission</h3>
+        <br />
+        <p>The mission of the Orpheum Theatre Group is to enhance the communities we serve by utilizing the performing arts to entertain, educate, and enlighten while preserving the historic Orpheum Theatre and the Halloran Centre for Performing Arts & Education.</p>
+    </div>
+</body>
+</html>
