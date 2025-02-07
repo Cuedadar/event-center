@@ -20,3 +20,8 @@ table {
 .price-column {
     text-align: right;
 }
+
+.description-text {
+    height: 60px; 
+    vertical-align: top;
+}
