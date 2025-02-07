@@ -29,9 +29,8 @@ h2 {
     text-align: center;
 }
 
-#mission-div {
+.image-div {
     background-color: rgb(0, 0, 0, 0.75);
-    background-image: url(../images/ushers.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
@@ -39,14 +38,12 @@ h2 {
     flex-direction: column;
 }
 
+#mission-div {
+    background-image: url(../images/ushers.jpg);
+}
+
 #broadway-div {
-    background-color: rgb(0, 0, 0, 0.75);
     background-image: url(../images/orpheumstage.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    display: flex;
-    flex-direction: column;
 }
 
 div h3 {
