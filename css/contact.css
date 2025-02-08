@@ -1,2 +1,21 @@
 @import url(navbar.css);
 
+form {
+    display: flex; 
+    flex-direction: column; 
+    padding: 0% 20%;
+}
+
+label {
+    color: #F6CB0C;
+    font-size: 1em;
+    font-family: century-gothic, sans-serif;
+}
+
+input, textarea {
+    padding-bottom: 5%;
+}
+
+#submit-button {
+    padding: 1% !important;
+}
