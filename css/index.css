@@ -29,6 +29,45 @@ h2 {
     text-align: center;
 }
 
+h4 {
+    color: #F6CB0C;
+    font-size: 1.5em;
+    font-family: century-gothic, sans-serif;
+    padding-top: 1em;
+    padding-left: 1em;
+    text-align: left;
+}
+
+.events-row {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.event-tile {
+    display: flex; 
+    flex-direction: column; 
+    width: 30%;
+    background-color: rgb(48, 48, 48);
+    border-radius: 10%;
+}
+
+.events-row img {
+    width: 100%;
+}
+
+.events-row a {
+    text-decoration: none;
+}
+
+.event-date {
+    color: #F6CB0C;
+    font-size: 1.3em;
+    font-family: century-gothic, sans-serif;
+    text-align: left;
+    padding-left: 1em;
+}
+
 .image-div {
     background-color: rgb(0, 0, 0, 0.5);
     background-size: cover;
@@ -51,7 +90,7 @@ h2 {
     background-image: url(../images/orpheumstage.webp);
 }
 
-div h3 {
+.image-div h3 {
     color: #F6CB0C;
     font-size: 3em;
     font-family: century-gothic, sans-serif;
@@ -63,7 +102,7 @@ div h3 {
     text-shadow: 3px 3px black;
 }
 
-div p {
+.image-div p {
     color: #F6CB0C;
     font-size: 1.4em;
     font-family: century-gothic, sans-serif;
