@@ -1,4 +1,23 @@
 @import url(navbar.css);
 
+#hero-div {
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url(../images/seating.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    margin: 0 10%;
+    background-position: bottom;
+}
 
+h1 {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 5vw;
+    color: #F6CB0C;
+    width: 50%;
+    font-family: century-gothic, sans-serif;
+    text-shadow: 5px 5px black;
+}
 
