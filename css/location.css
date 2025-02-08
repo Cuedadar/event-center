@@ -1,0 +1,52 @@
+@import url(navbar.css);
+
+#hero-div {
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url(../images/Orpheum-exterior.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    display: flex;
+    margin: 0 10%;
+    background-position: bottom;
+}
+
+h1 {
+    margin-top: 5vh;
+    margin-left: 5vh;
+    font-size: 5vw;
+    color: #F6CB0C;
+    width: 50%;
+    font-family: century-gothic, sans-serif;
+    text-shadow: 5px 5px black;
+}
+
+#location-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3% 10%;
+    justify-content: space-around;
+}
+
+#location-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F6CB0C;
+    font-family: century-gothic, sans-serif;
+    margin-bottom: 3%;
+}
+
+#location-info h3 {
+    font-size: 2em;
+}
+
+#location-info p {
+    margin: 0;
+}
+
+#location-info a {
+    margin-top: 1.5em;
+    color: #F6CB0C;
+}
