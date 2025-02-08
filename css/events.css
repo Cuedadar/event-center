@@ -21,3 +21,42 @@ h1 {
     text-shadow: 5px 5px black;
 }
 
+#events-div {
+    display: flex; 
+    flex-direction: column;
+    margin: 2em 10%;
+}
+
+.event-row {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    font-family: century-gothic, sans-serif;
+}
+
+.event-row .event-image {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.event-row .event-image img {
+    width: 70%;
+}
+
+.event-row .event-info-div {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+}
+
+.event-row .event-info-div h3 {
+    font-size: min(3vw, 2em);
+    color: #F6CB0C;
+    margin-bottom: 0;
+}
+
+.event-row .event-info-div p {
+    font-size: min(2vw, 1.25);
+    color: #F6CB0C;
+}
