@@ -10,6 +10,8 @@ label {
     color: #F6CB0C;
     font-size: 1em;
     font-family: century-gothic, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 0.25em;
 }
 
 input, textarea {
@@ -17,5 +19,6 @@ input, textarea {
 }
 
 #submit-button {
-    padding: 1% !important;
+    padding: 1em;
+    margin-top: 2em;
 }
