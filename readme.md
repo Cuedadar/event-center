@@ -2,7 +2,7 @@
 
 This project demonstrates my ability to structure content, style elements, and implement responsive design.
 
-**A live version of the site can be found at *[Netlify](https://jtking-orpheum.netlify.app/)* **
+**A live version of the site can be found at *[Netlify](https://jtking-orpheum.netlify.app/)***
 
 The website uses HTML and CSS to create an example site for the Orpheum Theatre of Memphis. It includes
 
