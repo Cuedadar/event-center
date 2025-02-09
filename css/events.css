@@ -54,13 +54,12 @@ h1 {
 }
 
 .event-row .event-info-div h3 {
-    /* font-size: min(3vw, 2em); */
     color: #F6CB0C;
     margin-bottom: 0;
+    font-size: 2rem;
 }
 
 .event-row .event-info-div p {
-    /* font-size: min(2vw, 1.25); */
     color: #F6CB0C;
 }
 
@@ -68,7 +67,6 @@ h1 {
     .event-row {
         flex-direction: column;
         align-items: center;
-        /* justify-content: center; */
     }
 
     .event-tile {

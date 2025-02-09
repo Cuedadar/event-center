@@ -30,12 +30,22 @@ h1 {
 table {
     color: #F6CB0C;
     font-family: century-gothic, sans-serif;
-    width: 73%;
+    width: 80%;
 }
 
 .header-row {
     font-weight: bold;
-    height: 3em;
+    height: 3rem;
+}
+
+.header-row td {
+    font-weight: bold; 
+    font-size: 1.75rem; 
+    border-bottom: 1px solid #F6CB0C;
+}
+
+.first-item {
+    padding-top: 1rem;
 }
 
 .price-column {

@@ -38,6 +38,10 @@ label {
 }
 
 input, textarea {
+    border-radius: 6px;
+}
+
+textarea {
     padding-bottom: 5%;
 }
 
