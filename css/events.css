@@ -25,23 +25,26 @@ h1 {
     display: flex; 
     flex-direction: column;
     margin: 2em 10%;
+    flex-wrap: nowrap;
 }
 
 .event-row {
     display: flex; 
     flex-direction: row; 
-    justify-content: center;
+    justify-content: left;
     font-family: century-gothic, sans-serif;
+    margin: 0 auto;
 }
 
 .event-row .event-image {
     display: flex;
-    align-self: center;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+    margin: 1em;
 }
 
 .event-row .event-image img {
-    width: 70%;
+    width: 40vw;
 }
 
 .event-row .event-info-div {
@@ -51,12 +54,29 @@ h1 {
 }
 
 .event-row .event-info-div h3 {
-    font-size: min(3vw, 2em);
+    /* font-size: min(3vw, 2em); */
     color: #F6CB0C;
     margin-bottom: 0;
 }
 
 .event-row .event-info-div p {
-    font-size: min(2vw, 1.25);
+    /* font-size: min(2vw, 1.25); */
     color: #F6CB0C;
+}
+
+@media screen and (max-width: 796px) {
+    .event-row {
+        flex-direction: column;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .event-tile {
+        width: 90%;
+        margin-bottom: 1em;
+    }
+
+    .event-row .event-image img {
+        width: 100%;
+    }
 }
