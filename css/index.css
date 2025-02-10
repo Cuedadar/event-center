@@ -116,6 +116,33 @@ h4 {
     text-shadow: 3px 3px black;
 }
 
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    width: 100%;
+    color: #F6CB0C;
+    font-family: century-gothic, sans-serif;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    margin: 0.1rem auto;
+    text-align: center;
+}
+
+footer a:hover {
+    color: white;
+}
+
 @media screen and (max-width: 796px) {
     .events-row {
         flex-direction: column;
@@ -127,3 +154,5 @@ h4 {
         margin-bottom: 1em;
     }
 }
+
+
