@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orpheum Theatre Memphis - Events</title>
 
-    <link rel="stylesheet" href="../css/events.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/events.css" />
+  </head>
+  <body>
     <!-- Question: Why can't nav be in a header and be sticky? is the nav bar the header? -->
-        <!-- Future Possible Improvements: -->
-        <!-- 1. Animation open, menu presents/slides downward -->
-        <!-- 2. Improve reusability of nav bar. JS could include it if a navbar.html file existed I could put in every file -->
+    <!-- Future Possible Improvements: -->
+    <!-- 1. Animation open, menu presents/slides downward -->
+    <!-- 2. Improve reusability of nav bar. JS could include it if a navbar.html file existed I could put in every file -->
     <header>
-        <nav>
-        <a href="../index.html"><img src="../images/orpheum-logo.png" alt="The Orpheum Theatre Group logo"></a>
+      <nav>
+        <a href="../index.html"
+          ><img
+            src="../images/orpheum-logo.png"
+            alt="The Orpheum Theatre Group logo"
+        /></a>
         <!-- Checkbox trick for hamburger menu -->
         <!-- Checkbox for the menu toggle -->
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" id="menu-toggle" />
         <!-- Label for the checkbox, this will be the hamburger icon -->
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul>
-            <li class="unselected"><a href="../index.html">Home</a></li>
-            <li class="selected"><a href="#">Events</a></li>
-            <li class="unselected"><a href="menu.html">Menu</a></li>
-            <li class="unselected"><a href="location.html">Location</a></li>
-            <li class="unselected"><a href="contact.html">Contact Us</a></li>
+          <li class="unselected"><a href="../index.html">Home</a></li>
+          <li class="selected"><a href="#">Events</a></li>
+          <li class="unselected"><a href="menu.html">Menu</a></li>
+          <li class="unselected"><a href="location.html">Location</a></li>
+          <li class="unselected"><a href="contact.html">Contact Us</a></li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main>
-    <div id="hero-div">
+    <main>
+      <div id="hero-div">
         <h1>Upcoming Events</h1>
-    </div>
+      </div>
 
-    <section id="events-div">
-            <article class="event-row">
-                <!-- Div is required for proper image sizing in flex -->
-                    <div class="event-image">
-                        <img src="../images/hamiltonlogo.jpg" alt="Hamilton Logo">
-                    </div>
-                    <div class="event-info-div">
-                        <h3>Hamilton</h3>
-                        <p>Feb 18 - Mar 2, 2025</p>
-                        <p>HAMILTON is the epic saga that follows the rise of Founding Father Alexander Hamilton as he fights for honor, love, and a legacy that would shape the course of a nation.</p>
-                    </div>
-            </article>
-            <article class="event-row">
-                    <div class="event-image">
-                        <img src="../images/whoseliveisit.jpg" alt="Whose Live Anyway Group">
-                    </div>
-                    <div class="event-info-div">
-                        <h3>Whose Live Anyway?</h3>
-                        <p>Mar 15, 2025</p>
-                        <p>Whose Live Anyway? is 90 minutes of improvised comedy and songs based on audience suggestions. Cast members Greg Proops, Jeff B. Davis, Ryan Stiles, and Joel Murray create witty scenes on the spot.</p>
-                    </div>
-            </article>
-            <article class="event-row">
-                    <div class="event-image">
-                        <img src="../images/BlackViolin.jpg" alt="Black Violin Duo">
-                    </div>
-                    <div class="event-info-div">
-                        <h3>Black Violin: Full Circle Tour</h3>
-                        <p>Apr 1, 2025</p>
-                        <p>Step into Black Violin&apos;s Full Circle Tour, where GRAMMY-nominated duo Wil Baptiste and Kev Marcus redefine the possibilities of music by merging classical depth with hip-hop&apos;s pulse.</p>
-                    </div>
-            </article>
-    </article>
-</main>
-<footer>
-    <p>&copy; John King 2005</p>
-    <p>All images credited at Orpheum Website</p>
-    <p>Visit us at our real site: <a href="https://www.orpheum-memphis.com/">Orpheum Memphis</a></p>
-</footer>
-</body>
+      <section id="events-div">
+        <article class="event-row">
+          <!-- Div is required for proper image sizing in flex -->
+          <div class="event-image">
+            <img src="../images/hamiltonlogo.jpg" alt="Hamilton Logo" />
+          </div>
+          <div class="event-info-div">
+            <h3>Hamilton</h3>
+            <p>Feb 18 - Mar 2, 2025</p>
+            <p>
+              HAMILTON is the epic saga that follows the rise of Founding Father
+              Alexander Hamilton as he fights for honor, love, and a legacy that
+              would shape the course of a nation.
+            </p>
+          </div>
+        </article>
+        <article class="event-row">
+          <div class="event-image">
+            <img
+              src="../images/whoseliveisit.jpg"
+              alt="Whose Live Anyway Group"
+            />
+          </div>
+          <div class="event-info-div">
+            <h3>Whose Live Anyway?</h3>
+            <p>Mar 15, 2025</p>
+            <p>
+              Whose Live Anyway? is 90 minutes of improvised comedy and songs
+              based on audience suggestions. Cast members Greg Proops, Jeff B.
+              Davis, Ryan Stiles, and Joel Murray create witty scenes on the
+              spot.
+            </p>
+          </div>
+        </article>
+        <article class="event-row">
+          <div class="event-image">
+            <img src="../images/BlackViolin.jpg" alt="Black Violin Duo" />
+          </div>
+          <div class="event-info-div">
+            <h3>Black Violin: Full Circle Tour</h3>
+            <p>Apr 1, 2025</p>
+            <p>
+              Step into Black Violin&apos;s Full Circle Tour, where
+              GRAMMY-nominated duo Wil Baptiste and Kev Marcus redefine the
+              possibilities of music by merging classical depth with
+              hip-hop&apos;s pulse.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; John King 2005</p>
+      <p>All images credited at Orpheum Website</p>
+      <p>
+        Visit us at our real site:
+        <a href="https://www.orpheum-memphis.com/">Orpheum Memphis</a>
+      </p>
+    </footer>
+  </body>
 </html>

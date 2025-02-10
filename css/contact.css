@@ -1,78 +1,79 @@
 @import url(navbar.css);
 
 #hero-div {
-    background-color: rgb(0, 0, 0, 0.3);
-    background-image: url(../images/contact.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
-    display: flex;
-    margin: 0 10%;
-    background-position: bottom;
+  background-color: rgb(0, 0, 0, 0.3);
+  background-image: url(../images/contact.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  display: flex;
+  margin: 0 10%;
+  background-position: bottom;
 }
 
 h1 {
-    margin-top: 5vh;
-    margin-left: 5vh;
-    font-size: 5vw;
-    color: #F6CB0C;
-    width: 50%;
-    font-family: century-gothic, sans-serif;
-    text-shadow: 5px 5px black;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  font-size: 5vw;
+  color: #f6cb0c;
+  width: 50%;
+  font-family: century-gothic, sans-serif;
+  text-shadow: 5px 5px black;
 }
 
 form {
-    display: flex; 
-    flex-direction: column; 
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 1.25em;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1.25em;
 }
 
 label {
-    color: #F6CB0C;
-    font-size: 1.25em;
-    font-family: century-gothic, sans-serif;
-    padding-top: 1em;
-    padding-bottom: 0.25em;
+  color: #f6cb0c;
+  font-size: 1.25em;
+  font-family: century-gothic, sans-serif;
+  padding-top: 1em;
+  padding-bottom: 0.25em;
 }
 
-input, textarea {
-    border-radius: 6px;
+input,
+textarea {
+  border-radius: 6px;
 }
 
 textarea {
-    padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 #submit-button {
-    padding: 1em;
-    margin-top: 2em;
+  padding: 1em;
+  margin-top: 2em;
 }
 
 footer {
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    width: 100%;
-    color: #F6CB0C;
-    font-family: century-gothic, sans-serif;
-    align-items: center;
-    gap: 1rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  width: 100%;
+  color: #f6cb0c;
+  font-family: century-gothic, sans-serif;
+  align-items: center;
+  gap: 1rem;
 }
 
 footer a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 footer p {
-    margin: 0.1rem auto;
-    text-align: center;
+  margin: 0.1rem auto;
+  text-align: center;
 }
 
 footer a:hover {
-    color: white;
+  color: white;
 }

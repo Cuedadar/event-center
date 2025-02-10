@@ -1,83 +1,82 @@
 body {
-    margin: 0;
-    background-color: black;
+  margin: 0;
+  background-color: black;
 }
 
 header {
-    background-color: black;
-    display: flex;
-    padding-top: 0.7em;
-    padding-bottom: 0.7em;
-    position: sticky;
-    top: 0;
-    width: 100%;
+  background-color: black;
+  display: flex;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header nav ul {
-    padding: 15px;
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    align-items: center;
-    justify-content: flex-start;
+  padding: 15px;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 header nav ul li a {
-    color: #F6CB0C;
-    text-decoration: none;
-    font-size: 1.4em;
-    font-family: century-gothic, sans-serif;
+  color: #f6cb0c;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: century-gothic, sans-serif;
 }
 
 nav ul li.selected {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 nav ul li.unselected {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 nav ul li a:hover {
-    color: white;
+  color: white;
 }
 
 /* Hamburger menu icon */
 .menu-icon {
-    display: none;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
+  display: none;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
 }
 
 /* Hide the checkbox input */
 #menu-toggle {
-    display: none;
+  display: none;
 }
 
 /* 796 ensures contact us doesn't wrap */
 /* Standard is 768px */
 @media screen and (max-width: 796px) {
-    header nav ul {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  header nav ul {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-    /* Display the hamburger icon */
-    .menu-icon {
-        display: flex;
-    }
+  /* Display the hamburger icon */
+  .menu-icon {
+    display: flex;
+  }
 
-    /* When the checkbox is checked, show the menu */
-    #menu-toggle:checked + label + ul {
-        display: flex;
-    }
+  /* When the checkbox is checked, show the menu */
+  #menu-toggle:checked + label + ul {
+    display: flex;
+  }
 }
-

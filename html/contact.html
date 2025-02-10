@@ -1,56 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Orpheum Theatre Memphis - Contact</title>
 
-    <link rel="stylesheet" href="../css/contact.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/contact.css" />
+  </head>
+  <body>
     <!-- Question: Why can't nav be in a header and be sticky? is the nav bar the header? -->
-        <!-- Future Possible Improvements: -->
-        <!-- 1. Animation open, menu presents/slides downward -->
-        <!-- 2. Improve reusability of nav bar. JS could include it if a navbar.html file existed I could put in every file -->
-        <header>
-        <nav>
-        <a href="../index.html"><img src="../images/orpheum-logo.png" alt="The Orpheum Theatre Group logo"></a>
+    <!-- Future Possible Improvements: -->
+    <!-- 1. Animation open, menu presents/slides downward -->
+    <!-- 2. Improve reusability of nav bar. JS could include it if a navbar.html file existed I could put in every file -->
+    <header>
+      <nav>
+        <a href="../index.html"
+          ><img
+            src="../images/orpheum-logo.png"
+            alt="The Orpheum Theatre Group logo"
+        /></a>
         <!-- Checkbox trick for hamburger menu -->
         <!-- Checkbox for the menu toggle -->
-        <input type="checkbox" id="menu-toggle">
+        <input type="checkbox" id="menu-toggle" />
         <!-- Label for the checkbox, this will be the hamburger icon -->
         <label for="menu-toggle" class="menu-icon">&#9776;</label>
         <ul>
-            <li class="unselected"><a href="../index.html">Home</a></li>
-            <li class="unselected"><a href="events.html">Events</a></li>
-            <li class="unselected"><a href="menu.html">Menu</a></li>
-            <li class="unselected"><a href="location.html">Location</a></li>
-            <li class="selected"><a href="#">Contact Us</a></li>
+          <li class="unselected"><a href="../index.html">Home</a></li>
+          <li class="unselected"><a href="events.html">Events</a></li>
+          <li class="unselected"><a href="menu.html">Menu</a></li>
+          <li class="unselected"><a href="location.html">Location</a></li>
+          <li class="selected"><a href="#">Contact Us</a></li>
         </ul>
-    </nav>
-</header>
-<main>
-    <div id="hero-div">
+      </nav>
+    </header>
+    <main>
+      <div id="hero-div">
         <h1>Contact the Orpheum Theatre Group</h1>
-    </div>
+      </div>
 
-        <form>
-            <label for="name">Name</label>
-            <input type="text" placeholder="John Doe" name="name" required>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" placeholder="John Doe" name="name" required />
 
-            <label for="email">Email</label>
-            <input type="email" placeholder="test@example.com" name="email" required>
+        <label for="email">Email</label>
+        <input
+          type="email"
+          placeholder="test@example.com"
+          name="email"
+          required
+        />
 
-            <label for="message">Feedback</label>
-            <textarea placeholder="Please share your feedback here" name="message" required></textarea>
-            
-            <input type="submit" value="Submit" id="submit-button"> 
-        </form>
-</main>
-<footer>
-    <p>&copy; John King 2005</p>
-    <p>All images credited at Orpheum Website</p>
-    <p>Visit us at our real site: <a href="https://www.orpheum-memphis.com/">Orpheum Memphis</a></p>
-</footer>
-</body>
+        <label for="message">Feedback</label>
+        <textarea
+          placeholder="Please share your feedback here"
+          name="message"
+          required
+        ></textarea>
+
+        <input type="submit" value="Submit" id="submit-button" />
+      </form>
+    </main>
+    <footer>
+      <p>&copy; John King 2005</p>
+      <p>All images credited at Orpheum Website</p>
+      <p>
+        Visit us at our real site:
+        <a href="https://www.orpheum-memphis.com/">Orpheum Memphis</a>
+      </p>
+    </footer>
+  </body>
 </html>
